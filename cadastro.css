@@ -1,0 +1,55 @@
+*{
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.capa{
+    background-image: url(https://img.freepik.com/fotos-gratis/foto-de-alto-angulo-de-cupcakes-de-queijo-com-geleia-de-frutas-e-frutas-em-um-prato-de-madeira_181624-28381.jpg?w=360&t=st=1686952446~exp=1686953046~hmac=f0170c06dceea3c2f76483701d96c1dab854edd2bd82a45740aa86af5c0db9c6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1 span {
+    color: rgb(84, 147, 149);
+}
+
+input{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 1px solid #88c8bf;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
